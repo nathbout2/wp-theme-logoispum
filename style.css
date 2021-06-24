@@ -1,0 +1,107 @@
+/*
+Theme Name: logoipsum
+Author: Nathan B.
+Author URI: https://nathanb.promo.codeur.online/
+Description: Thème dev dans le cadre de l'Acs 
+Version: 0.1
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@font-face {
+        font-family: 'DMSans-bold';
+        src: url('DMSans-Bold.ttf');
+}
+.imgcarte{
+    width: 200px;
+}
+.imgcalculette{
+    width: 200px;
+}
+
+.imgphoto{
+    width: 200px;
+}
+.lead1{
+    color:rgba(84, 84, 212, 1) ;
+    margin-top: 20px;
+}
+
+.logoipsum-title{
+    font-size: 5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.logoipsum-btn-purple, .logoipsum-btn-purple:hover{
+    background-color: #5454D4;
+    color:white;
+    border-color: #5454D4;
+    width: 220px;
+}
+
+.logoipsum-underline-purple:hover{
+    text-decoration: underline #5454D4 ;
+}
+.btn1{
+    color: white ;
+    background-color: rgb(255, 113, 67);
+    margin-left: 100px;
+    width: 211px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 15px 32px;
+}
+.btn1:hover{
+    color: white;
+    background-color:rgba(159, 57, 25, 1);
+}
+.card1{
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgba(234, 233, 242, 1);
+}
+.card2{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 113, 67);
+}
+.card3{
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgba(234, 233, 242, 1);
+}
+.btn6{
+    background-color: rgba(159, 57, 25, 1);
+    padding: 15px 120px;
+}
+.btn7{
+    background-color:rgba(255, 255, 255, 1);
+    color: rgba(84, 84, 212, 1);
+    padding: 15px 120px;
+}
+.btn5{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(84, 84, 212, 1);
+    padding: 15px 120px;
+}
+.container3{
+    text-align: center;
+}
+
+#btn-yearly{
+    background-color: #5454D4;
+    border: 1px solid #F7F7FB;
+    width: 80p;
+}
+
+#btn-monthly{
+    background-color: #F7F7FB;
+    border: 1px solid #F7F7FB;
+    width: 80px;
+}
+
+#btn-monthly:hover{
+    color: #5454D4;
+}
